@@ -1,0 +1,65 @@
+[
+{
+"id":0,
+"countryName":"The Netherlands",
+"capitalCity":"Amsterdam",
+"flagName":"nl",
+"population": 17418808
+},
+{
+"id":1,
+"countryName":"Germany",
+"capitalCity":"Berlin",
+"flagName":"de",
+"population": 83149300
+},
+{
+"id":2,
+"countryName":"Italy",
+"capitalCity":"Rome",
+"flagName":"it",
+"population": 60317116
+},
+{
+"id":3,
+"countryName":"France",
+"capitalCity":"Paris",
+"flagName":"fr",
+"population": 6708100
+},
+{
+"id":4,
+"countryName":"Spain",
+"capitalCity":"Madrid",
+"flagName":"es",
+"population": 47431256
+},
+{
+"id":5,
+"countryName":"Denmark",
+"capitalCity":"Copenhagen",
+"flagName":"dk",
+"population": 5827463
+},
+{
+"id":6,
+"countryName":"Sweden",
+"capitalCity":"Stokholm",
+"flagName":"sw",
+"population": 10367232
+},
+{
+"id":7,
+"countryName":"Norway",
+"capitalCity":"Oslo",
+"flagName":"nr",
+"population": 5432580
+},
+{
+"id":8,
+"countryName":"Portugal",
+"capitalCity":"Lisbon",
+"flagName":"pr",
+"population": 10300000
+}
+]
