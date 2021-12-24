@@ -12,6 +12,7 @@
 		73CBA0D02591ED18004046BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73CBA0CF2591ED18004046BB /* Assets.xcassets */; };
 		73CBA0D32591ED18004046BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73CBA0D22591ED18004046BB /* Preview Assets.xcassets */; };
 		73CBA0DF2591ED5A004046BB /* listData.json in Resources */ = {isa = PBXBuildFile; fileRef = 73CBA0DE2591ED5A004046BB /* listData.json */; };
+		F8E59C152775FF1300A808F0 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E59C142775FF1200A808F0 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		73CBA0D22591ED18004046BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		73CBA0D42591ED18004046BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73CBA0DE2591ED5A004046BB /* listData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = listData.json; sourceTree = "<group>"; };
+		F8E59C142775FF1200A808F0 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		73CBA0CA2591ED17004046BB /* MyList */ = {
 			isa = PBXGroup;
 			children = (
+				F8E59C132775FF0000A808F0 /* Model */,
 				73CBA0DD2591ED4C004046BB /* Data */,
 				73CBA0CD2591ED17004046BB /* ContentView.swift */,
 				73CBA0CB2591ED17004046BB /* MyListApp.swift */,
@@ -78,6 +81,14 @@
 				73CBA0DE2591ED5A004046BB /* listData.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		F8E59C132775FF0000A808F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8E59C142775FF1200A808F0 /* DataModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 			files = (
 				73CBA0CE2591ED17004046BB /* ContentView.swift in Sources */,
 				73CBA0CC2591ED17004046BB /* MyListApp.swift in Sources */,
+				F8E59C152775FF1300A808F0 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
